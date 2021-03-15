@@ -1,0 +1,25 @@
+@import "reset.css";
+
+/*component*/
+@import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/top-bar.css";
+@import "components/no-mobile.css";
+@import "components/cog-rotation.css";
+
+/*screens*/
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chattingpage.css";
+@import "screen/hashtag.css";
+
+main {
+    height: 150vh;
+    width: 100%;
+    overflow-y: auto;
+    margin-top: 95px;
+}
+
